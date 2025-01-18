@@ -9,7 +9,7 @@ NC="\033[0m"
 ./scripts/greeting.sh
 
 print_success() {
-    echo -e "${GREEN} ${1} {NC}\n"
+    echo -e "${GREEN} ${1} ${NC}\n"
 }
 print_error() {
     echo -e "${RED} ${1} ${NC}\n"
