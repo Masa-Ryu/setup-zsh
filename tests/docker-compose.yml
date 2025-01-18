@@ -1,6 +1,5 @@
-version: '3'
 services:
   ubuntu:
-    container_name: ubuntu
+    container_name: zsh_installer_test
     image: ubuntu:latest
     command: tail -f /dev/null
